@@ -1,0 +1,1 @@
+<@override name="body"><div class="container">    <div class="row">        <div class="col-md-8">            我是时间的魔术师        </div><!-- /.col-md-8 -->    </div><!-- /.row --></div><!-- /.container --></@override><@extends name="common/base.ftl"/>
