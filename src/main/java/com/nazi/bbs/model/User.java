@@ -7,6 +7,8 @@ public class User {
 
     private String password;
 
+    private String email;
+
 
     public Integer getUid() {
         return uid;
@@ -33,5 +35,11 @@ public class User {
     }
 
 
+    public String getEmail() {
+        return email;
+    }
 
+    public void setEmail(String email) {
+        this.email = email == null ? null : email.trim();
+    }
 }

@@ -9,7 +9,7 @@
         <result column="add_time" property="addTime" jdbcType="INTEGER" />
     </resultMap>
     <sql id="Base_Column_List" >
-        uid, phone, type, password, add_time
+        uid, phone, password, add_time
     </sql>
 
     <select id="selectById" resultMap="BaseResultMap" parameterType="java.lang.Integer" >

@@ -80,7 +80,7 @@
 	<bean id="block" class="cn.org.rapid_framework.freemarker.directive.BlockDirective"/>
 	<bean id="extends" class="cn.org.rapid_framework.freemarker.directive.ExtendsDirective"/>
 	<bean id="override" class="cn.org.rapid_framework.freemarker.directive.OverrideDirective"/>
-	<bean id="superDirective" class="cn.org.rapid_framework.freemarker.directive.SuperDirective"/>
+	<bean id="super" class="cn.org.rapid_framework.freemarker.directive.SuperDirective"/>
 
 
 	<!-- spring和MyBatis完美整合，不需要mybatis的配置映射文件 -->
